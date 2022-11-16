@@ -1,0 +1,15 @@
+.map {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-div{
+    width: 97%;
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: black;
+    height: 750px;
+    overflow-x: hidden;
+    z-index: 9;
+}
