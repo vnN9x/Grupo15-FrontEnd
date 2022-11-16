@@ -19,6 +19,7 @@ export default function Home() {
       setLocations(res.data)
     }
     fetchLocations()
+  }, [search])
   return (
     <>
         <div className='home'>
