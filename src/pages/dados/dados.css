@@ -1,5 +1,6 @@
 .dados {
     display: flex;
+    flex-direction: column;
     margin-top: 90px;
     margin-left: 50px;
     align-items: center;
@@ -7,4 +8,20 @@
     text-align: center;
     background-color: #8FBC8B;
     border: 1px solid black;
+}
+.dados span{
+    font-size: 26px;
+}
+
+td {
+    background-color: rgb(224, 240, 204);
+}
+th{
+    background-color: lightgrey;
+}
+  
+
+td, th{
+    border: 1px black solid;
+    font-size: 28px;
 }
