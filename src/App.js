@@ -10,8 +10,18 @@ import Materiais from './pages/materiais/Materiais';
 import Dados from './pages/dados/Dados';
 import './app.css'
 import Sobre from './pages/sobre/Sobre';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { useLocation } from 'react-router-dom';
 
 function App() {
+  useEffect(() =>{
+    const fetchLocations = async ()=>{
+      const res = await axios.get("/place")
+      console.log(res)
+    }
+    fetchLocations()
+  }, [])
   return (
     <>
       <Router>
