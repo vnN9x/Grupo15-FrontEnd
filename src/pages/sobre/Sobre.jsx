@@ -16,6 +16,7 @@ export default function Sobre() {
               Todo o código fonte pode ser encontrado no <a target='_blank' href='https://github.com/vnN9x/Grupo-15---Reciclagem---TCC-2022' rel="noopener noreferrer"><b>GitHub</b></a><br></br><br></br>
               Para contato com o desenvolvedor e aluno Vinícius Maximiliano, <a target='_blank' href='https://www.linkedin.com/in/vinicius-maximiliano/' rel="noopener noreferrer"><b>Linkedin</b></a><br></br>
               <br></br> Grupo 15 - <b>Lixo na cidade de Campinas: plataforma de conteúdo informativo e incentivador as práticas de reciclagem</b>
+              <br></br><br></br><a target='_blank' href='https://docs.google.com/presentation/d/1m88iEkDnrHNiWQTltjbV_W6oW0ESgUY-KtnFwlv9CTE/edit?usp=sharing' rel="noopener noreferrer"><b>Slides de apoio</b></a>
             </span>
         </div>
     </>
