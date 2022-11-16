@@ -13,7 +13,7 @@ export default function Mapa() {
 
     useEffect(() =>{
       const fetchLocations = async ()=>{
-        const res = await axios.get("https://grupo15-api.herokuapp.com//place"+search)
+        const res = await axios.get("https://grupo15-api.herokuapp.com/place"+search)
         setLocations(res.data)
       }
       fetchLocations()
