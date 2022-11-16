@@ -1,9 +1,8 @@
 import React, {useRef, useLayoutEffect} from 'react'
 import { Loader } from '@googlemaps/js-api-loader';
 import './map.css'
-import TopBar from '../TopBar/TopBar';
-import HomeSideBar from '../homeSidebar/HomeSideBar';
-import MapOptions from '../mapOptions/MapOptions';
+const dotenv = require("dotenv")
+dotenv.config()
 
 const mapStyle = [{
   'featureType': 'administrative',
@@ -252,7 +251,7 @@ export default function Map({locations}) {
   })
 
   const apiOptions = {
-    apiKey: "AIzaSyACrksKJj2P6sO8NZ2eNBP7F-bBGwGRk0c"
+    apiKey: process.env.REACT_APP_GOOGLE_API
   }
   const loader = new Loader(apiOptions);
 
