@@ -1,0 +1,19 @@
+.mapOptions{
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.containerItem{
+    width: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 10;
+}
+
+.containerItem:hover {
+    filter: sepia(100%);
+}
